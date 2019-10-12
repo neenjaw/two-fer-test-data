@@ -1,5 +1,6 @@
 [
   {
+    "file": "status",
     "matches": [
       6,
       29,
@@ -51,11 +52,10 @@
       210,
       213
     ],
-    "file": "status",
     "query": "approve"
   },
   {
-    "query": "disapprove",
+    "file": "status",
     "matches": [
       0,
       1,
@@ -217,21 +217,21 @@
       211,
       212
     ],
-    "file": "status"
+    "query": "disapprove"
   },
   {
-    "query": "refer_to_mentor",
     "file": "status",
-    "matches": []
-  },
-  {
-    "query": "elixir.general.file_not_found",
-    "file": "comments",
-    "matches": []
-  },
-  {
     "matches": [],
+    "query": "refer_to_mentor"
+  },
+  {
     "file": "comments",
+    "matches": [],
+    "query": "elixir.general.file_not_found"
+  },
+  {
+    "file": "comments",
+    "matches": [],
     "query": "elixir.general.parsing_error"
   },
   {
@@ -447,7 +447,6 @@
     "query": "elixir.solution.use_module_doc"
   },
   {
-    "query": "elixir.solution.raise_fn_clause_error",
     "file": "comments",
     "matches": [
       4,
@@ -515,9 +514,11 @@
       209,
       210,
       211
-    ]
+    ],
+    "query": "elixir.solution.raise_fn_clause_error"
   },
   {
+    "file": "comments",
     "matches": [
       12,
       28,
@@ -529,10 +530,10 @@
       168,
       177
     ],
-    "file": "comments",
     "query": "elixir.solution.use_specification"
   },
   {
+    "file": "comments",
     "matches": [
       0,
       1,
@@ -627,10 +628,10 @@
       211,
       212
     ],
-    "file": "comments",
     "query": "elixir.two-fer.use_guards"
   },
   {
+    "file": "comments",
     "matches": [
       0,
       1,
@@ -773,11 +774,9 @@
       208,
       211
     ],
-    "file": "comments",
     "query": "elixir.two-fer.use_default_param"
   },
   {
-    "query": "elixir.two-fer.use_string_interpolation",
     "file": "comments",
     "matches": [
       9,
@@ -805,6 +804,7 @@
       165,
       168,
       177
-    ]
+    ],
+    "query": "elixir.two-fer.use_string_interpolation"
   }
 ]
