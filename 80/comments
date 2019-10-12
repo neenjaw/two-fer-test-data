@@ -1,0 +1,3 @@
+elixir.solution.use_module_doc
+elixir.two-fer.use_string_interpolation
+elixir.two-fer.use_guards
