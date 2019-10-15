@@ -1,6 +1,6 @@
 #!/bin/bash
 
-extended_data="./extended_test_data"
+extended_data="./extended_test_data/results"
 
 for test_dir in "${extended_data}"/*
 do
